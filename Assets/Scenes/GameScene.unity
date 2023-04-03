@@ -1475,7 +1475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRb: {fileID: 1012445742}
-  objectName: Bedroom Object
+  meshRenderer: {fileID: 1691368542}
 --- !u!54 &1012445742
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1704,20 +1704,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1052320543}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1052320548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!23 &1052320546 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5969571341492167174, guid: 5f8130691b66ae14d9dbcb6d622b9024,
+    type: 3}
+  m_PrefabInstance: {fileID: 1052320543}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171090994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2bfe68e16c346eaa79035c2c37941e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectRb: {fileID: 1052320549}
-  objectName: Bedroom Object
 --- !u!54 &1052320549
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1747,6 +1739,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.07695412, y: 0.20274748, z: 0.07695411}
   m_Center: {x: 0, y: 0.10151797, z: -0.0000000055879354}
+--- !u!114 &1052320551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171090994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d6005dca8947b08130afee735745ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectRb: {fileID: 1052320549}
+  meshRenderer: {fileID: 1052320546}
 --- !u!1 &1139335855 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 687523742406835317, guid: a501b344e9c01444d9068e1e426ad665,
@@ -1959,6 +1965,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 637df6f0f4d9b7343b7e984649b29faa, type: 3}
+--- !u!23 &1691368542 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8806633108062939895, guid: 4763d453d7e438d4c863b0dfd864112d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1012445738}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1700890241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2039,6 +2051,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1700890241}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &1700890244 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1204006895351799180, guid: 3e889a4ce8583a145b82242656326240,
+    type: 3}
+  m_PrefabInstance: {fileID: 1700890241}
+  m_PrefabAsset: {fileID: 0}
 --- !u!54 &1700890247
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2081,7 +2099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectRb: {fileID: 1700890247}
-  objectName: Bedroom Object
+  meshRenderer: {fileID: 1700890244}
 --- !u!1001 &1727946742
 PrefabInstance:
   m_ObjectHideFlags: 0

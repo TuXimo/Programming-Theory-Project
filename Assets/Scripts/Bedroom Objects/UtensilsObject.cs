@@ -1,6 +1,7 @@
-using UnityEngine;
 
-namespace DefaultNamespace
+
+// INHERITANCE
+namespace Bedroom_Objects
 {
     public class UtensilsObject : BedroomObject
     {
